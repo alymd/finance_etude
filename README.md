@@ -62,8 +62,8 @@ project/
 ## 1️⃣ Cloner le projet
 
 ```bash
-git clone <url-du-repository>
-cd gestion-financiere-etudiante
+git clone https://github.com/alymd/finance_etude.git
+cd finance_etude
 ```
 
 ---
@@ -144,4 +144,3 @@ flutter run
 
 👨‍💻 Auteur
 
-Projet réalisé dans le cadre d’un projet universitaire en informatique.
