@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'providers/auth_provider.dart';
 import 'providers/finance_provider.dart';
-//import 'screens/login_screen.dart';
+import 'screens/login_screen.dart';
 import 'screens/dashboard_screen.dart';
 
 void main() {
@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
               secondary: const Color(0xFF0D47A1),
             ),
           ),
-          /*home: auth.isAuthenticated 
+          home: auth.isAuthenticated 
             ? const DashboardScreen() 
             : FutureBuilder(
                 future: auth.tryAutoLogin(),
@@ -45,8 +45,7 @@ class MyApp extends StatelessWidget {
           routes: {
             '/dashboard': (ctx) => const DashboardScreen(),
             '/login': (ctx) => const LoginScreen(),
-          },*/
-          home: const DashboardScreen(),
+          },
         ),
       ),
     );

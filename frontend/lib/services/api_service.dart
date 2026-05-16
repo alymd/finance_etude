@@ -4,7 +4,7 @@ import '../models/transaction.dart';
 
 class ApiService {
   // Remplacez par l'adresse IP de votre serveur Flask
-  static const String baseUrl = 'http://10.0.2.2:5000'; // Pour l'émulateur Android
+  static const String baseUrl = 'http://localhost:5000'; // Pour Chrome/Web
 
   // --- AUTH ---
   Future<Map<String, dynamic>> login(String email, String password) async {
