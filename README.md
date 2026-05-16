@@ -1,34 +1,45 @@
-📚 Gestion Financière Étudiante
+# 📚 Gestion Financière Étudiante
 
-Application mobile développée avec Flutter et Flask permettant aux étudiants de gérer facilement leurs finances personnelles.
-
----
-
-🚀 Fonctionnalités
- • 🔐 Authentification (connexion / inscription)
- • 💰 Gestion des revenus
- • 💸 Gestion des dépenses
- • 📊 Tableau de bord financier
- • 📈 Statistiques et suivi du budget
- • 🗄️ Stockage des données avec MySQL
+Application complète de gestion financière destinée aux étudiants, développée avec **Flutter** pour le frontend mobile et **Flask + MySQL** pour le backend API.
 
 ---
 
-🛠️ Technologies Utilisées
+# 🚀 Présentation du Projet
 
-Frontend
- • Flutter
- • Dart
- • Material Design
+Cette application permet aux étudiants de :
 
-Backend
- • Flask
- • Python
- • Flask-CORS
+- Gérer leurs revenus
+- Suivre leurs dépenses
+- Définir un budget mensuel
+- Visualiser leurs statistiques financières
+- Consulter un tableau de bord dynamique
+- Créer un compte et se connecter
 
-Base de données
- • MySQL
+Le projet utilise une architecture moderne séparant :
 
+- **Frontend Mobile** → Flutter
+- **Backend API** → Flask
+- **Base de données** → MySQL
+
+---
+
+# 🛠️ Technologies Utilisées
+
+## Frontend
+- Flutter
+- Dart
+- Provider (gestion d’état)
+- Material Design 3
+
+## Backend
+- Python
+- Flask
+- Flask-CORS
+- MySQL Connector
+
+## Base de données
+- MySQL
+  
 ---
 
 📂 Structure du Projet
